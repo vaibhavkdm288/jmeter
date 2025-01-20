@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1737371098657,1785,https://jpetstore.aspectran.com/catalog/searchProducts?keyword=Fish,200,OK,Thread Group 1-1,text,true,,22151,539,1,1,https://jpetstore.aspectran.com/catalog/searchProducts?keyword=Fish,1776,0,739
+1737371106364,470,https://jpetstore.aspectran.com/categories/DOGS,200,OK,Thread Group 1-1,text,true,,22121,573,1,1,https://jpetstore.aspectran.com/categories/DOGS,459,0,0
+1737371113955,478,https://jpetstore.aspectran.com/catalog/searchProducts?keyword=Dog,200,OK,Thread Group 1-1,text,true,,21836,592,1,1,https://jpetstore.aspectran.com/catalog/searchProducts?keyword=Dog,471,0,0
+1737371098584,2733,Test,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,66108,1704,1,1,null,2706,13117,739

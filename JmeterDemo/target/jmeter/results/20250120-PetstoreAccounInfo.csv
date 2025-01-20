@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1737371015676,2364,https://jpetstore.aspectran.com/account/editAccountForm,200,OK,Thread Group 1-1,text,true,,22848,1086,1,1,https://jpetstore.aspectran.com/account/signonForm?referer=%2Faccount%2FeditAccountForm,1900,0,875
+1737371015676,1911,https://jpetstore.aspectran.com/account/editAccountForm-0,302,Found,Thread Group 1-1,,true,,869,527,1,1,https://jpetstore.aspectran.com/account/editAccountForm,1900,0,875
+1737371017591,449,https://jpetstore.aspectran.com/account/editAccountForm-1,200,OK,Thread Group 1-1,text,true,,21979,559,1,1,https://jpetstore.aspectran.com/account/signonForm?referer=%2Faccount%2FeditAccountForm,442,0,0
+1737371046477,941,https://jpetstore.aspectran.com/account/editAccount,200,OK,Thread Group 1-1,text,true,,22761,1593,1,1,https://jpetstore.aspectran.com/account/signonForm?referer=%2Faccount%2FeditAccount,490,0,0
+1737371046477,490,https://jpetstore.aspectran.com/account/editAccount-0,302,Found,Thread Group 1-1,,true,,868,936,1,1,https://jpetstore.aspectran.com/account/editAccount,490,0,0
+1737371046968,450,https://jpetstore.aspectran.com/account/editAccount-1,200,OK,Thread Group 1-1,text,true,,21893,657,1,1,https://jpetstore.aspectran.com/account/signonForm?referer=%2Faccount%2FeditAccount,438,0,0
+1737371015610,3305,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,45609,2679,1,1,null,2390,28504,875

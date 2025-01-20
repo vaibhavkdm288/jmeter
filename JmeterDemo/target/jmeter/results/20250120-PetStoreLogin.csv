@@ -1,0 +1,16 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1737371051553,2284,PetstoreLogin,200,OK,Thread Group 1-1,text,false,"The operation lasted too long: It took 2,284 milliseconds, but should not have lasted longer than 2,000 milliseconds.",22891,1214,1,1,https://jpetstore.aspectran.com/account/signonForm?retry=true,1805,0,740
+1737371051553,1805,PetstoreLogin-0,302,Found,Thread Group 1-1,,true,,841,632,1,1,https://jpetstore.aspectran.com/account/signon,1805,0,740
+1737371053361,476,PetstoreLogin-1,200,OK,Thread Group 1-1,text,true,,22050,582,1,1,https://jpetstore.aspectran.com/account/signonForm?retry=true,463,0,0
+1737371051466,2284,Test,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-1,,false,,22891,1214,1,1,null,1805,193,740
+1737371053957,1384,SrearchFish,200,OK,Thread Group 2-1,text,true,,22146,588,1,1,https://jpetstore.aspectran.com/catalog/searchProducts?keyword=Fish,1372,0,323
+1737371062474,475,SrearchDog,200,OK,Thread Group 2-1,text,true,,21822,640,1,1,https://jpetstore.aspectran.com/catalog/searchProducts?keyword=Dog,464,0,0
+1737371053954,1859,PetstoreSearch,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,43968,1228,1,1,null,1836,7168,323
+1737371062988,399,WeatherAPI,200,OK,Thread Group 3-1,text,true,,1408,614,1,1,http://api.weatherapi.com/v1/current.json?key=804bb18b25874c38b1884449251701&q=London&aqi=no,399,0,63
+1737371063416,1828,EditAccountForm,200,OK,Thread Group 4-1,text,true,,22848,1184,1,1,https://jpetstore.aspectran.com/account/signonForm?referer=%2Faccount%2FeditAccountForm,1360,0,325
+1737371063416,1360,EditAccountForm-0,302,Found,Thread Group 4-1,,true,,869,576,1,1,https://jpetstore.aspectran.com/account/editAccountForm,1360,0,325
+1737371064777,467,EditAccountForm-1,200,OK,Thread Group 4-1,text,true,,21979,608,1,1,https://jpetstore.aspectran.com/account/signonForm?referer=%2Faccount%2FeditAccountForm,455,0,0
+1737371093683,923,EditAccount,200,OK,Thread Group 4-1,text,true,,22759,1593,1,1,https://jpetstore.aspectran.com/account/signonForm?referer=%2Faccount%2FeditAccount,463,0,0
+1737371093683,463,EditAccount-0,302,Found,Thread Group 4-1,,true,,862,936,1,1,https://jpetstore.aspectran.com/account/editAccount,463,0,0
+1737371094148,458,EditAccount-1,200,OK,Thread Group 4-1,text,true,,21897,657,1,1,https://jpetstore.aspectran.com/account/signonForm?referer=%2Faccount%2FeditAccount,450,0,0
+1737371063411,2751,PetstoreAccounInfo,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 4-1,,true,,45607,2777,1,1,null,1823,28447,325
